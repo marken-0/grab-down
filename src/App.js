@@ -17,6 +17,9 @@ function App() {
         >
           Learn React
         </a>
+        <a href="https://accounts.spotify.com/authorize?client_id=9d686c7d0833427db57420593ab7038b&response_type=token&redirect_uri=http://localhost:3000/callback&scope=user-read-private%20user-read-email">
+          Log in with Spotify
+        </a>
       </header>
     </div>
   );
